@@ -186,5 +186,5 @@ func TopNWordsNoCount(wordCount map[string]int, n int) []string {
 		return wordCount[words[i]] > wordCount[words[j]]
 	})
 
-	return words[:n]
+	return words[:n] // die ersten n Einträge zurückgeben
 }
