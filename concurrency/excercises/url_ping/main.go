@@ -15,7 +15,7 @@ type Result struct {
 }
 
 func checkAlex(urls []string) []Result {
-	// TODO: jeden URL in einer eigenen Goroutine prüfen
+	// TODO: jede URL in einer eigenen Goroutine prüfen
 	// HTTP GET, Status-Code und Fehler zurückgeben
 	// Ergebnisse sammeln ohne Race Condition
 	// mein Ansatz nicht so toll aber auch full lost... output garnicht so schlecht
